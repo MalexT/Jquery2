@@ -1,0 +1,107 @@
+body {
+    background: #FFF;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+}
+
+.sbutton {
+    background-color: rgb(89, 9, 109);
+    border-radius: 2px;
+    box-shadow: 0 3px 0 rgb(97, 39, 124);
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 12px;
+    position: relative;
+    top: 20px;
+}
+
+.sbutton:hover {
+    cursor: pointer;
+}
+
+.smenu {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    left: -20px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    -webkit-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+}
+
+.smenu:after {
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    top: -7px;
+    content: '';
+    display: inline-block;
+    height: 10px;
+    left: 50px;
+    position: absolute;
+    width: 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.smenu li {
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+    width: 100px;
+}
+
+.smenu li:hover {
+    background-color: #fafafa;
+}
+
+.smenu .stavka1:hover {
+    background-color: rgb(129, 76, 164);
+    color: #FFF !important;
+}
+
+.smenu .stavka2:hover {
+    background-color: rgb(65, 32, 87);
+    color: #FFF !important;
+}
+
+.smenu .stavka3:hover {
+    background-color: rgb(68, 5, 109);
+    color: #FFF !important;
+}
+
+.smenu .stavka4:hover {
+    background-color: rgb(182, 4, 218);
+    color: #FFF !important;
+}
+
+.smenu .stavka5:hover {
+    background-color: rgb(140, 16, 223);
+    color: #FFF !important;
+}
+
+.smenu li:last-child {
+    border-bottom: none;
+}
+
+.smenu li a {
+    color: rgb(6, 64, 224);
+    text-decoration: none;
+}
+
+.smenu li:hover a {
+    color: #fff !important;
+}
+
+.smenu.share {
+    opacity: 1;
+    top: 45px;
+}
